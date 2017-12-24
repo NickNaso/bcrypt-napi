@@ -1,6 +1,6 @@
 {
-  "name": "bcrypt",
-  "description": "A bcrypt library for NodeJS.",
+  "name": "bcrypt-napi",
+  "description": "A bcrypt library for NodeJS. Porting to N-API",
   "keywords": [
     "bcrypt",
     "password",
@@ -11,18 +11,18 @@
     "crypto"
   ],
   "main": "./bcrypt",
-  "version": "1.0.3",
-  "author": "Nick Campbell (https://github.com/ncb000gt)",
+  "version": "1.0.3-napi",
+  "author": "Nicola Del Gobbo (https://github.com/NickNaso)",
   "engines": {
     "node": ">= 4.0.0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kelektiv/node.bcrypt.js.git"
+    "url": "https://github.com/NickNaso/bcrypt-napi.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kelektiv/node.bcrypt.js/issues"
+    "url": "https://github.com/NickNaso/bcrypt-napi/issues"
   },
   "scripts": {
     "test": "npm install --build-from-source && nodeunit test",
@@ -35,23 +35,5 @@
   "gypfile": true,
   "devDependencies": {
     "nodeunit": "~0.9.1"
-  },
-  "contributors": [
-    "Antonio Salazar Cardozo <savedfastcool@gmail.com> (https://github.com/Shadowfiend)",
-    "Van Nguyen <the.gol.effect@gmail.com> (https://github.com/thegoleffect)",
-    "David Trejo <david@dtrejo.com> (https://github.com/dtrejo)",
-    "Ben Glow <glen.low@pixelglow.com> (https://github.com/pixelglow)",
-    "NewITFarmer.com <> (https://github.com/newitfarmer)",
-    "Alfred Westerveld <alfredwesterveld@gmail.com> (https://github.com/alfredwesterveld)",
-    "Vincent Côté-Roy <vincentcr@gmail.com> (https://github.com/vincentcr)",
-    "Lloyd Hilaiel <lloyd@hilaiel.com> (https://github.com/lloyd)",
-    "Roman Shtylman <shtylman@gmail.com> (https://github.com/shtylman)",
-    "Vadim Graboys <dimva13@gmail.com> (https://github.com/vadimg)",
-    "Ben Noorduis <> (https://github.com/bnoordhuis)",
-    "Nate Rajlich <nathan@tootallnate.net> (https://github.com/tootallnate)",
-    "Sean McArthur <sean.monstar@gmail.com> (https://github.com/seanmonstar)",
-    "Fanie Oosthuysen <fanie.oosthuysen@gmail.com> (https://github.com/weareu)",
-    "Amitosh Swain Mahapatra <amitosh.swain@gmail.com> (https://github.com/Agathver)",
-    "Nicola Del Gobbo <nicoladelgobbo@gmail.com> (https://github.com/NickNaso)"
-  ]
+  }
 }

@@ -1,7 +1,7 @@
 {
   'targets': [
     {
-      'target_name': 'bcrypt-napi',
+      'target_name': 'bcrypt_napi',
       'sources': [
         'src/blowfish.cc',
         'src/bcrypt.cc',
