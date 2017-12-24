@@ -24,9 +24,6 @@ contributions **[here](https://github.com/kelektiv/node.bcrypt.js/tree/napi)**
 
 Thank you to all people that encourage me every day.
 
-Mantainers and creators of **[backbone.radio](https://github.com/marionettejs/backbone.radio)** 
-a module that has inspired my work on **hertzy**.
-
 ## License
 
 Licensed under [Apache license V2](./LICENSE)
