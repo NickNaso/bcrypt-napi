@@ -3,7 +3,8 @@
 This is a porting of bcrypt module using N-API.
 
 Please don't use this respository to install the module. I created it only to 
-execute some performance tests.
+execute some performance tests and for my article about the proces I followed 
+on doing this porting.
 
 Refer to the official repo of **[bcrypt](https://github.com/kelektiv/node.bcrypt.js)** 
 
