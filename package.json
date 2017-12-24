@@ -26,13 +26,13 @@
   },
   "scripts": {
     "test": "npm install --build-from-source && nodeunit test",
-    "install": "node-pre-gyp install --fallback-to-build"
+    "install": "node-gyp rebuild"
   },
   "dependencies": {
     "bindings": "1.3.0",
-    "node-addon-api": "1.1.0",
-    "node-pre-gyp": "0.6.39"
+    "node-addon-api": "1.1.0"
   },
+  "gypfile": true,
   "devDependencies": {
     "nodeunit": "~0.9.1"
   },
